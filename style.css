@@ -1,0 +1,58 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200%;
+    border: 5px  rgb(255, 254, 254) solid;
+    position: relative;
+    top: 50px;
+}
+.photo{
+    background-color:rgb(172, 165, 165, 0.2);
+}
+
+nav{
+     background-color:rgb(96, 149, 158);
+     overflow: hidden;
+ }
+.topnavBar{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+}
+
+li, a{
+  display: inline-block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: monospace;
+}
+a{
+    font-size: 20px;
+}
+#webdevTitle, #portfolioWord{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#portfolioWord{
+    font-weight: bold;
+}
+
+#downArrow{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    font-size: 75px;
+    font-family: monospace;
+}
+
+body{
+    height: 200vh;
+}
+
