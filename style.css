@@ -44,15 +44,41 @@ a{
     font-weight: bold;
 }
 
-#downArrow{
+#downArrow, #currentProjects{
     position: relative;
     text-align: center;
     top: 200px;
-    font-size: 75px;
+    font-size: 20px;
     font-family: monospace;
+}
+
+#downArrow{
+    font-size: 75px;
 }
 
 body{
     height: 200vh;
 }
+
+.workinProgress{
+    background-color:rgb(172, 165, 165, 0.2);
+    border: 3px solid rgb(80, 77, 77);
+    font-family: monospace;
+    
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+#codeQuiz{
+    margin-right:70px;
+}
+
+.inProgress{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
 
